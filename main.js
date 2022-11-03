@@ -159,7 +159,7 @@ global.reloadHandler = async function (restatConn) {
   }
   
 let welc = `
-❖━━━[ *어서 오십시오* ]━━━❖
+❖━━━[ 𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤𝙙 ]━━━❖
 ┏––––––━━━━━━━━•
 │☘︎ @subject
 ┣━━━━━━━━┅┅┅
@@ -173,10 +173,10 @@ let welc = `
 –––┅┅ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ* ┅┅––––––
 @desc
 
-Script My Bot : https://youtube.com/channel/UCjoPsysjCn2Qa0dRalUb2mg`
+Script My Bot : https://youtube.com/channel/UCV6YKW35H_PqzmhD-CLLenw`
 let lef = 
-`❖━━━[ *나중에 봐요* ]━━━❖
-𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 *@user* 👋😃`
+`❖━━━[ 𝙎𝙚𝙡𝙖𝙢𝙖𝙩 𝙏𝙞𝙣𝙜𝙜𝙖𝙡 ]━━━❖
+Dadaaa *@user* Beban👋😃`
 
   conn.welcome = welc
   conn.bye = lef

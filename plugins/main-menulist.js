@@ -258,14 +258,14 @@ let tek = `*${ucapan()} @${m.sender.split`@`[0]}*
 ☰⃟⃟ᭁ═━┈━┈༓
 ┯┩${psan}
 ┡────────────┈ ⳹
-┠━☰⃟⃟ᭁ「 *U s e rI n f o 克* 」
+┠━☰⃟⃟ᭁ「 *U s e r I n f o 克* 」
 ┋↬✗• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
 ║↬✗• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
 ╏↬✗• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
 ╎↬✗• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 ╅╌┉┈┈╳
 ╭╼╼╼╼╼╼╼╼╺╴╴╳
-┊ 「 *S t a t u sI n f o 比* 」
+┊ 「 *S t a t u s I n f o 比* 」
 ┊⧠ *ᴜᴘᴛɪᴍᴇ:* ${mpt}
 ┊⧠ *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
 ┊⧠ *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
